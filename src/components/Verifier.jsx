@@ -1,15 +1,17 @@
-// CreditCardVerification.js
-import { h } from 'preact';
-import { useState } from 'preact/hooks';
+import { useState } from "preact/hooks";
+import { verifyCardNumber } from "../utils";
+import {
+  CheckBadgeIcon,
+  ExclamationTriangleIcon,
+} from "@heroicons/react/24/outline";
 
 const CreditCardVerification = () => {
-  const [creditCardNumber, setCreditCardNumber] = useState('');
+  const [creditCardNumber, setCreditCardNumber] = useState("");
+  const [validationMessage, setValidationMessage] = useState("");
 
   const handleVerify = () => {
-    // Implement your credit card verification logic here
-    // You might want to communicate with a server to perform the verification
-    // For simplicity, let's just log the credit card number to the console
-    console.log(`Verifying credit card number: ${creditCardNumber}`);
+    const isValid = verifyCardNumber(creditCardNumber);
+    setValidationMessage(isValid ? "Valid" : "Invalid");
   };
 
   return (
@@ -17,7 +19,10 @@ const CreditCardVerification = () => {
       <h2 class="text-2xl font-semibold mb-4">Credit Card Verification</h2>
 
       <div class="mb-4">
-        <label class="block text-gray-700 text-sm font-bold mb-2" for="creditCardNumber">
+        <label
+          class="block text-gray-700 text-sm font-bold mb-2"
+          for="creditCardNumber"
+        >
           Credit Card Number
         </label>
         <input
@@ -38,6 +43,27 @@ const CreditCardVerification = () => {
           Verify Credit Card
         </button>
       </div>
+
+      {validationMessage && (
+        <div className="flex items-center">
+          <div
+            class={`text-lg ${
+              validationMessage === "Valid" ? "text-green-500" : "text-red-500"
+            }`}
+          >
+            {validationMessage}
+          </div>
+          {validationMessage === "Valid" && (
+            <CheckBadgeIcon className="ml-1 h-6 w-6" aria-hidden="true" />
+          )}
+          {validationMessage !== "Valid" && (
+            <ExclamationTriangleIcon
+              className="ml-1 h-6 w-6"
+              aria-hidden="true"
+            />
+          )}
+        </div>
+      )}
     </div>
   );
 };

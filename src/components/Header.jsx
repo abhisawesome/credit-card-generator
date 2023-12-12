@@ -10,7 +10,7 @@ import { Link } from "preact-router";
 const navigation = [
   { name: "Generate Credit Card", href: "/" },
   { name: "Verify Credit Card", href: "/verify" },
-  { name: "Readme", href: "#" },
+  { name: "Readme", href: "/readme" },
 ];
 
 export default function Example() {
@@ -97,10 +97,15 @@ export default function Example() {
               </div>
               <div className="py-6">
                 <a
-                  href="#"
+                  href="https://github.com/abhisawesome/"
+                  target="_blank"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Github
+                  <img
+                    src="/github-mark.png"
+                    className="h-8 w-auto"
+                    alt="Github"
+                  />
                 </a>
               </div>
             </div>

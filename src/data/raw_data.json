@@ -1,0 +1,192 @@
+[
+    {
+        "issuing_network": "American Express",
+        "iin_bin_ranges": "34,37",
+        "length": 15
+    },
+    {
+        "issuing_network": "Bankcard",
+        "iin_bin_ranges": "5610, 560221-560225",
+        "length": 16
+    },
+    {
+        "issuing_network": "China T-Union",
+        "iin_bin_ranges": "31",
+        "length": 19
+    },
+    {
+        "issuing_network": "China UnionPay",
+        "iin_bin_ranges": "62",
+        "length": "16,17,18,19"
+    },
+    {
+        "issuing_network": "Diners Club enRoute",
+        "iin_bin_ranges": "2014, 2149",
+        "length": 15
+    },
+    {
+        "issuing_network": "Diners Club International",
+        "iin_bin_ranges": "36",
+        "length": "16,17,18,19"
+    },
+    {
+        "issuing_network": "Diners Club International",
+        "iin_bin_ranges": "300-305, 3095, 38-39",
+        "length": "16,17,18,19"
+    },
+    {
+        "issuing_network": "Diners Club United States & Canada",
+        "iin_bin_ranges": "54,55",
+        "length": 16
+    },
+    {
+        "issuing_network": "Discover Card",
+        "iin_bin_ranges": "6011,644-649,65",
+        "length": "16-19"
+    },
+    {
+        "issuing_network": "Discover Card",
+        "iin_bin_ranges": "622126-622925",
+        "length": "16-19"
+    },
+    {
+        "issuing_network": "UkrCard",
+        "iin_bin_ranges": "60400100-60420099",
+        "length": "16-19"
+    },
+    {
+        "issuing_network": "RuPay",
+        "iin_bin_ranges": "60, 65, 81, 82, 508",
+        "length": 16
+    },
+    {
+        "issuing_network": "RuPay (RuPay-JCB co-branded)",
+        "iin_bin_ranges": "353,356 ",
+        "length": 16
+    },
+    {
+        "issuing_network": "InterPayment",
+        "iin_bin_ranges": "636",
+        "length": "16-19"
+    },
+    {
+        "issuing_network": "InstaPayment",
+        "iin_bin_ranges": "637-639",
+        "length": 16
+    },
+    {
+        "issuing_network": "JCB",
+        "iin_bin_ranges": "3528-3589",
+        "length": "16-19"
+    },
+    {
+        "issuing_network": "Laser",
+        "iin_bin_ranges": "6304,6706,6771,6709",
+        "length": "16-19"
+    },
+    {
+        "issuing_network": "Maestro (UK)",
+        "iin_bin_ranges": "6759, 676770, 676774",
+        "length": "12-19"
+    },
+    {
+        "issuing_network": "Maestro",
+        "iin_bin_ranges": "5018, 5020, 5038, 5893, 6304, 6759, 6761, 6762, 6763",
+        "length": "12-19"
+    },
+    {
+        "issuing_network": "Dankort",
+        "iin_bin_ranges": "5019",
+        "length": 16
+    },
+    {
+        "issuing_network": "Dankort (Visa co-branded)",
+        "iin_bin_ranges": "4571",
+        "length": 16
+    },
+    {
+        "issuing_network": "Mir",
+        "iin_bin_ranges": "2200-2204",
+        "length": "16-19"
+    },
+    {
+        "issuing_network": "BORICA",
+        "iin_bin_ranges": "2205",
+        "length": 16
+    },
+    {
+        "issuing_network": "NPS Pridnestrovie",
+        "iin_bin_ranges": "6054740-6054744",
+        "length": 16
+    },
+    {
+        "issuing_network": "Mastercard",
+        "iin_bin_ranges": "2221-2720",
+        "length": 16
+    },
+    {
+        "issuing_network": "Mastercard",
+        "iin_bin_ranges": "51-55",
+        "length": 16
+    },
+    {
+        "issuing_network": "Solo",
+        "iin_bin_ranges": "6334, 6767",
+        "length": "16, 18, 19"
+    },
+    {
+        "issuing_network": "Switch",
+        "iin_bin_ranges": "4903, 4905, 4911, 4936, 564182, 633110, 6333, 6759",
+        "length": "16, 18, 19"
+    },
+    {
+        "issuing_network": "Troy",
+        "iin_bin_ranges": "9792",
+        "length": 16
+    },
+    {
+        "issuing_network": "Troy  (Discover co-branded)",
+        "iin_bin_ranges": "65",
+        "length": 16
+    },
+    {
+        "issuing_network": "Visa",
+        "iin_bin_ranges": "4",
+        "length": "13, 16"
+    },
+    {
+        "issuing_network": "Visa Electron",
+        "iin_bin_ranges": "4026, 417500, 4508, 4844, 4913, 4917",
+        "length": 16
+    },
+    {
+        "issuing_network": "UATP",
+        "iin_bin_ranges": "1",
+        "length": 15
+    },
+    {
+        "issuing_network": "Verve",
+        "iin_bin_ranges": "506099-506198, 650002-650027, 507865-507964",
+        "length": "16,17, 18, 19"
+    },
+    {
+        "issuing_network": "LankaPay",
+        "iin_bin_ranges": "357111",
+        "length": 16
+    },
+    {
+        "issuing_network": "UzCard",
+        "iin_bin_ranges": "8600",
+        "length": 16
+    },
+    {
+        "issuing_network": "Humo",
+        "iin_bin_ranges": "9860",
+        "length": 16
+    },
+    {
+        "issuing_network": "GPN",
+        "iin_bin_ranges": "1, 2, 6, 7, 8, 9",
+        "length": 16
+    }
+]
