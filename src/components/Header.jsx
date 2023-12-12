@@ -6,14 +6,15 @@ import {
   CreditCardIcon,
 } from "@heroicons/react/24/outline";
 import { Link } from "preact-router";
+import { generateUrlPath } from "../utils";
 
 const navigation = [
-  { name: "Generate Credit Card", href: "/" },
-  { name: "Verify Credit Card", href: "/verify" },
-  { name: "Readme", href: "/readme" },
+  { name: "Generate Credit Card", href: generateUrlPath("/") },
+  { name: "Verify Credit Card", href: generateUrlPath("/verify") },
+  { name: "Readme", href: generateUrlPath("/readme") },
 ];
 
-export default function Example() {
+export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
@@ -23,7 +24,7 @@ export default function Example() {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <Link href="/" className="-m-1.5 p-1.5">
+          <Link href={generateUrlPath("/")} className="-m-1.5 p-1.5">
             <span className="sr-only"></span>
             <CreditCardIcon className="h-8 w-auto" />
           </Link>
@@ -51,7 +52,7 @@ export default function Example() {
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <a
-            href="https://github.com/abhisawesome/"
+            href="https://github.com/abhisawesome/credit-card-generator"
             target="_blank"
             className="text-sm font-semibold leading-6 text-gray-900"
           >
@@ -97,7 +98,7 @@ export default function Example() {
               </div>
               <div className="py-6">
                 <a
-                  href="https://github.com/abhisawesome/"
+                  href="https://github.com/abhisawesome/credit-card-generator"
                   target="_blank"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
