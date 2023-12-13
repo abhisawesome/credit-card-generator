@@ -1,4 +1,5 @@
 const generateUrlPath = (path) => {
+    return path
     const basePath = import.meta.env.BASE_URL;
   
     // Remove the first character if it is '/'

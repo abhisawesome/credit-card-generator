@@ -1,15 +1,22 @@
-import { Router, Route, Link } from "preact-router";
+import { Router, Route,  } from "preact-router";
 import CreditCardGenerator from "./components/Generator";
 import CreditCardVerification from "./components/Verifier";
 import Header from "./components/Header";
 import Readme from "./components/Readme";
 import { generateUrlPath } from "./utils";
+import { createHashHistory } from 'history';
+
+
+
+
+
 
 const App = () => {
+  const history = createHashHistory();
   return (
     <div id="app">
       <Header />
-      <Router>
+      <Router history={history}>
         <Route path={generateUrlPath("/")} component={CreditCardGenerator} />
         <Route
           path={generateUrlPath("/verify")}
